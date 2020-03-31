@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+#instagram img {
+  max-width: 1.5%;
+  max-height: 1.5%;
+}
+
+/* @font-face {
+  font-family: 'HarvestBarnRegular';
+  src: local('HarvestBarnRegular'), url(./fonts/HarvestBarnRegular.woff2) format('woff2');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PierSans';
+  src: local('PierSans'), url(./fonts/PierSansRegular.woff2) format('woff2');
+  font-style: normal;
+} */
+
+#logo1 {
+  /*Furkan*/
+  font-family: 'Liu Jian Mao Cao', cursive;
+  margin-bottom: 5px;
+}
+
+#logo2 {
+  /*Ö.*/
+  font-family: 'Liu Jian Mao Cao', cursive;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+menu h2 {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  justify-content: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
