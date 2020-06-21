@@ -15,7 +15,7 @@ Gebruik de command 'npm start' in de root folder om het project op te starten.
 
 ## Bijdrage
 Aan dit project is gewerkt door:
-Isaidhello, Furkan-rgb, Zonar94
+Furkan-rgb
 
 ## Licentie
 [MIT](https://choosealicense.com/licenses/mit/)
