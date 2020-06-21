@@ -1,6 +1,3 @@
-# PortfolioS4
-Mijn eigen portret fotografie portfolio
-
 # Portret fotografie
 Mijn eigen portret fotografie portfolio waarin je mijn gemaakte foto's kunt zien en de locaties daarvan.
 Het project is gebouwd met ReactJS.
