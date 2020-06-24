@@ -1,0 +1,38 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 30px;
+}
+
+.menu h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+    color: black;
+    margin-top: 10vw;
+}
+
+.menu h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.menu a img {
+    max-width: 40px;
+    max-height: 40px;
+    color: black;
+}
+
+/*style links*/
+
+.menu a:link {
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .menu {}
+}

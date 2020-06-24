@@ -2,16 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-#instagram img {
-  max-width: 1.5%;
-  max-height: 1.5%;
-}
-
 /* @font-face {
   font-family: 'HarvestBarnRegular';
   src: local('HarvestBarnRegular'), url(./fonts/HarvestBarnRegular.woff2) format('woff2');
@@ -26,27 +16,16 @@
 
 #logo1 {
   /*Furkan*/
-  font-family: 'Liu Jian Mao Cao', cursive;
+  font-family: 'Caveat', cursive;
   margin-bottom: 5px;
 }
 
-#logo2 {
-  /*Ö.*/
-  font-family: 'Liu Jian Mao Cao', cursive;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-menu h2 {
+menu a {
   display: flex;
-  font-family: 'Roboto', sans-serif;
+  flex-direction: column;
   justify-content: left;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
 }
 
 .App-header {
@@ -70,5 +49,11 @@ menu h2 {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 600px) {
+  .MuiGrid-container {
+    flex-direction: column;
   }
 }

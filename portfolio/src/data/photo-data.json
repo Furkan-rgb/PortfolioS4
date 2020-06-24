@@ -1,0 +1,24 @@
+{
+    "photos": [
+        {
+            "type": "Photo",
+            "properties": {
+                "PHOTO_ID": 960,
+                "TITLE": "Blue-yellow photo 1",
+                "LAT": 51.58182597,
+                "LNG": 5.01736214,
+                "LINK": "https://i.imgur.com/yaP00iK.png"
+            }
+        },
+        {
+            "type": "Photo",
+            "properties": {
+                "PHOTO_ID": 961,
+                "TITLE": "Blue-yellow photo 2",
+                "LAT": 51.57418906,
+                "LNG": 5.03118038,
+                "LINK": "https://i.imgur.com/FDPUHlR.png"
+            }
+        }
+    ]
+}
